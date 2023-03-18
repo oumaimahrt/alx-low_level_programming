@@ -13,11 +13,14 @@ int main(void)
 
 	i = 0;
 	j = 0;
-	while (i < 26 && j < 26)
+	while (i < 26)
 	{
 		putchar(c[i]);
-		putchar(d[j]);
 		i++;
+	}
+	while (j < 26)
+	{
+		putchar(d[j]);
 		j++;
 	}
 	putchar('\n');
