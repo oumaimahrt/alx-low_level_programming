@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	int i;
-	char c[24] = "abcdfghijklmnoprstuvwxyz";
+	char e = 'e';
+	char q = 'q';
+	char low;
 
-	i = 0;
-	while (i < 25)
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		putchar(c[i]);
-		i++;
+		if (low != e && low != q)
+		putchar(low);
 	}
 	putchar('\n');
 	return (0);
