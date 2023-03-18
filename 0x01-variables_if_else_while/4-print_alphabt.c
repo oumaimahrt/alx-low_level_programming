@@ -6,7 +6,7 @@
 int main(void)
 {
 	int i;
-	char c[25] = "abcdfghijklmnoprstuvwxyz";
+	char c[24] = "abcdfghijklmnoprstuvwxyz";
 
 	i = 0;
 	while (i < 25)
